@@ -2,26 +2,30 @@ $columns: 12;
 $atom: (100% / $columns);
 
 $break_lm: 1280px;
-$break_md: 940px;
+$break_md: 990px;
 $break_sm: 780px;
+$break_xsm: 550px;
 $break_xxs: 440px;
 
 $offset: 16px;
 $offset_lm: $offset;
 $offset_md: $offset;
 $offset_sm: $offset;
+$offset_xsm: $offset;
 $offset_xxs: $offset;
 
 $offset_one_side: ($offset / 2);
 $offset_lm_one_side: ($offset_lm / 2);
 $offset_md_one_side: ($offset_md / 2);
 $offset_sm_one_side: ($offset_sm / 2);
+$offset_xsm_one_side: ($offset_xsm / 2);
 $offset_xxs_one_side: ($offset_xxs / 2);
 
-$fields: 135px;
+$fields: 150px;
 $fields_lm: 50px;
 $fields_md: 25px;
 $fields_sm: 15px;
+$fields_xsm: 15px;
 $fields_xxs: 10px;
 
 @mixin wrapper-full(){
@@ -43,6 +47,11 @@ $fields_xxs: 10px;
         padding-right: $fields_sm;
     }
 
+    @include xsm-block(){
+        padding-left: $fields_xsm;
+        padding-right: $fields_xsm;
+    }
+
     @include xxs-block(){
         padding-left: $fields_xxs;
         padding-right: $fields_xxs;
@@ -60,7 +69,7 @@ $fields_xxs: 10px;
 }
 
 @mixin wrapper(){
-    max-width: 1170px;
+    max-width: 1520px;
     margin: 0 auto;
     @include wrapper-full();
 }
@@ -118,6 +127,11 @@ $fields_xxs: 10px;
 @mixin size-sm($n){
     $val: 100% / $columns * $n;
     @include sm(width, #{calc(#{$val} - #{$offset_sm})});
+}
+
+@mixin size-xsm($n){
+    $val: 100% / $columns * $n;
+    @include xsm(width, #{calc(#{$val} - #{$offset_xsm})});
 }
 
 @mixin size-xxs($n){
@@ -253,6 +267,38 @@ $fields_xxs: 10px;
     @include sm(padding-right, #{calc(#{$val} + #{$offset_sm_one_side})});
 }
 
+@mixin shift-xsm($n){
+    $val: 100% / $columns * $n;
+    @include xsm(margin-left, #{calc(#{$val} + #{$offset_xsm_one_side})});
+    @include xsm(margin-right, #{calc(#{$val} + #{$offset_xsm_one_side})});
+}
+
+@mixin shift-xsm-left($n){
+    $val: 100% / $columns * $n;
+    @include xsm(margin-left, #{calc(#{$val} + #{$offset_xsm_one_side})});
+}
+
+@mixin shift-xsm-right($n){
+    $val: 100% / $columns * $n;
+    @include xsm(margin-right, #{calc(#{$val} + #{$offset_xsm_one_side})});
+}
+
+@mixin shift-xsm-padding($n){
+    $val: 100% / $columns * $n;
+    @include xsm(padding-left, #{calc(#{$val} + #{$offset_xsm_one_side})});
+    @include xsm(padding-right, #{calc(#{$val} + #{$offset_xsm_one_side})});
+}
+
+@mixin shift-xsm-padding-left($n){
+    $val: 100% / $columns * $n;
+    @include xsm(padding-left, #{calc(#{$val} + #{$offset_xsm_one_side})});
+}
+
+@mixin shift-xsm-padding-right($n){
+    $val: 100% / $columns * $n;
+    @include xsm(padding-right, #{calc(#{$val} + #{$offset_xsm_one_side})});
+}
+
 @mixin shift-xxs($n){
     $val: 100% / $columns * $n;
     @include xxs(margin-left, #{calc(#{$val} + #{$offset_xxs_one_side})});
@@ -317,6 +363,18 @@ $fields_xxs: 10px;
 
 @mixin sm-block(){
     @media screen and (max-width: $break_sm){
+        @content;
+    }
+}
+
+@mixin xsm($name, $value){
+    @media screen and (max-width: $break_xsm){
+        #{$name}: $value;
+    }
+}
+
+@mixin xsm-block(){
+    @media screen and (max-width: $break_xsm){
         @content;
     }
 }
