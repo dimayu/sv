@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
     <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
     <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
@@ -29,236 +29,316 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
 
 
-    <!--
-    *********HEADER*******
+<!--
+*********HEADER*******
 -->
-    <header class="header">
-        <div class="wrapper">
-            <div class="header__items">
-                <div class="header__items__item header__items__item--logo">
-                    <a href="#" class="logo">
-                        <img src="img/logo.png" alt="logo">
-                    </a>
-                    <div class="mobile-nav-button">
-                        <div class="mobile-nav-button__line"></div>
-                        <div class="mobile-nav-button__line"></div>
-                        <div class="mobile-nav-button__line"></div>
-                    </div>
-                </div>
-                <div class="header__items__item header__items__item--contacts">
-                    <p>Звоните нам ежедневно с 10:00 до 20:00</p>
-                    <div class="callback">
-                        <button class="btn js-open-modal" data-modal="modal-callback">
-                            Перезвоните мне!
-                        </button>
-                        <a href="tel:+7 978 102 00 16">+7 978 102 00 16</a>
-                    </div>
+<header class="header">
+    <div class="wrapper">
+        <div class="header__items">
+            <div class="header__items__item header__items__item--logo">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="mobile-nav-button">
+                    <div class="mobile-nav-button__line"></div>
+                    <div class="mobile-nav-button__line"></div>
+                    <div class="mobile-nav-button__line"></div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <!--
-    *****NAVIGATION******
--->
-    <div class="nav">
-        <div class="wrapper">
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contacts</a></li>
-                    <li><a href="#">123</a></li>
-                </ul>
-            </nav>
-            <nav class="mobile-menu">
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contacts</a></li>
-                    <li><a href="#">123</a></li>
-                </ul>
-            </nav>
+            <div class="header__items__item header__items__item--contacts">
+                <p>Звоните нам ежедневно с 10:00 до 20:00</p>
+                <div class="callback">
+                    <button class="btn js-open-modal" data-modal="modal-callback">
+                        Перезвоните мне!
+                    </button>
+                    <a href="tel:+7 978 102 00 16">+7 978 102 00 16</a>
+                </div>
+            </div>
         </div>
     </div>
+    <nav class="mobile-menu">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!--
-    *********MAIN*******
+<!--
+*****NAVIGATION******
 -->
-    <main class="main">
-        <section class="section section-one">
-            <div class="wrapper">
-                <div class="section-one__content">
-                    <img src="img/sv-logo.png" alt="logo">
-                    <h2>Пройди опросник за 30 секунд, и гарантировано получишь скидку<br>5 тыс. рублей от Фабрики СВ в
-                        Крыму.
-                    </h2>
-                    <h1>Официальные дистрибьютеры фабрики в Крыму.</h1>
-                    <h3>Обслужили уже более 10000 покупателей, которые приходят снова</h3>
-                    <button class="btn js-open-modal" data-modal="modal-callback">
-                        Пройти опрос и получить скидку
-                    </button>
-                </div>
-            </div>
-        </section>
+<div class="nav">
+    <div class="wrapper">
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contacts</a></li>
+                <li><a href="#">123</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contacts</a></li>
+                <li><a href="#">123</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
 
-        <section class="section section-form">
-            <div class="wrapper">
-                <h2 class="h2">
-                    <span>Заходите к нам в магазин для бесплатной консультации<br>и на бесплатный кофе</span>
+<!--
+*********MAIN*******
+-->
+<main class="main">
+    <section class="section section-one">
+        <div class="wrapper">
+            <div class="section-one__content">
+                <img src="img/sv-logo.png" alt="logo">
+                <h2>Пройди опросник за 30 секунд, и гарантировано получишь скидку<br>5 тыс. рублей от Фабрики СВ в
+                    Крыму.
                 </h2>
-                <div class="section-form__content">
-                    <div class="bg"></div>
-                    <div class="section-form__items">
-                        <div class="section-form__items__item section-form__items__item--slider">
-                            <div class="item">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                            <div class="item">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                            <div class="item">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                            <div class="item">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                        </div>
-                        <div class="section-form__items__item section-form__items__item--form">
-                            <h3>Закажите обратный звонок и мы Вам позвоним!</h3>
-                            <form action="">
-                                <input type="text" class="phone" placeholder="+7 (___) ___ __-__">
-                                <button class="btn">Заказать звонок</button>
-                            </form>
-                            <p>Или звоните нам по номеру</p>
-                            <a href="tel:+7 978 102 00 16" class="phone-link">+7 978 102 00 16</a>
-                            <div class="social">
-                                <a href="" target="_blank" class="social-v">
-                                    <img src="img/viber.png" alt="viber">
-                                </a>
-                                <a href="" target="_blank" class="social-w">
-                                    <img src="img/whatsapp.png" alt="viber">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h1>Официальные дистрибьютеры фабрики в Крыму.</h1>
+                <h3>Обслужили уже более 10000 покупателей, которые приходят снова</h3>
+                <button class="btn js-open-modal" data-modal="modal-quiz">
+                    Пройти опрос и получить скидку
+                </button>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="section section-reviews">
-            <div class="wrapper">
-                <h2 class="h2">
-                    <span>Отзывы наших клиентов</span>
-                </h2>
-                <div class="section-reviews__slider">
-                    <div class="item">
-                        <div class="section-reviews__items">
-                            <div class="section-reviews__items__pic">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                            <div class="section-reviews__items__text">
-                                <div class="name">tuiro</div>
-                                <div class="text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, corporis
-                                    libero
-                                    iure
-                                    accusantium a quis. Autem placeat facilis maiores accusamus voluptatem excepturi id
-                                    eaque!
-                                    Veniam dolorem minus illo dignissimos culpa?
-                                </div>
-                                <button class="btn js-open-modal" data-modal="modal-callback">
-                                    Хочу также, но дешевле
-                                </button>
-                            </div>
+    <section class="section section-form">
+        <div class="wrapper">
+            <h2 class="h2">
+                <span>Заходите к нам в магазин для бесплатной консультации<br>и на бесплатный кофе</span>
+            </h2>
+            <div class="section-form__content">
+                <div class="bg"></div>
+                <div class="section-form__items">
+                    <div class="section-form__items__item section-form__items__item--slider">
+                        <div class="item">
+                            <img src="img/kitchen-1.jpg" alt="pic">
+                        </div>
+                        <div class="item">
+                            <img src="img/kitchen-1.jpg" alt="pic">
+                        </div>
+                        <div class="item">
+                            <img src="img/kitchen-1.jpg" alt="pic">
+                        </div>
+                        <div class="item">
+                            <img src="img/kitchen-1.jpg" alt="pic">
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="section-reviews__items">
-                            <div class="section-reviews__items__pic">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                            <div class="section-reviews__items__text">
-                                <div class="name">tuiro</div>
-                                <div class="text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, corporis
-                                    libero
-                                    iure
-                                    accusantium a quis. Autem placeat facilis maiores accusamus voluptatem excepturi id
-                                    eaque!
-                                    Veniam dolorem minus illo dignissimos culpa?
-                                </div>
-                                <button class="btn js-open-modal" data-modal="modal-callback">
-                                    Хочу также, но дешевле
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="section-reviews__items">
-                            <div class="section-reviews__items__pic">
-                                <img src="img/kitchen-1.jpg" alt="pic">
-                            </div>
-                            <div class="section-reviews__items__text">
-                                <div class="name">tuiro</div>
-                                <div class="text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, corporis
-                                    libero
-                                    iure
-                                    accusantium a quis. Autem placeat facilis maiores accusamus voluptatem excepturi id
-                                    eaque!
-                                    Veniam dolorem minus illo dignissimos culpa?
-                                </div>
-                                <button class="btn js-open-modal" data-modal="modal-callback">
-                                    Хочу также, но дешевле
-                                </button>
-                            </div>
+                    <div class="section-form__items__item section-form__items__item--form">
+                        <h3>Закажите обратный звонок и мы Вам позвоним!</h3>
+                        <form action="">
+                            <input type="text" class="phone" placeholder="+7 (___) ___ __-__">
+                            <button class="btn">Заказать звонок</button>
+                        </form>
+                        <p>Или звоните нам по номеру</p>
+                        <a href="tel:+7 978 102 00 16" class="phone-link">+7 978 102 00 16</a>
+                        <div class="social">
+                            <a href="" target="_blank" class="social-v">
+                                <img src="img/viber.png" alt="viber">
+                            </a>
+                            <a href="" target="_blank" class="social-w">
+                                <img src="img/whatsapp.png" alt="viber">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="section section-contacts">
-            <div class="wrapper">
-                <h2 class="h2">
-                    <span>Ваш магазин на Центральном Рынке Симферополя</span>
-                </h2>
-                <p>поэтому к нему легко и удобно добраться с любой точки города (есть парковка для автомобилей)</p>
-                <div class="section-contacts__items">
-                    <div class="section-contacts__items__item">
-                        <img src="img/map.gif" alt="gif">
+    <section class="section section-reviews">
+        <div class="wrapper">
+            <h2 class="h2">
+                <span>Отзывы наших клиентов</span>
+            </h2>
+            <div class="section-reviews__slider">
+                <div class="item">
+                    <div class="section-reviews__items">
+                        <div class="section-reviews__items__pic">
+                            <img src="img/kitchen-1.jpg" alt="pic">
+                        </div>
+                        <div class="section-reviews__items__text">
+                            <div class="name">tuiro</div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, corporis
+                                libero
+                                iure
+                                accusantium a quis. Autem placeat facilis maiores accusamus voluptatem excepturi id
+                                eaque!
+                                Veniam dolorem minus illo dignissimos culpa?
+                            </div>
+                            <button class="btn js-open-modal" data-modal="modal-callback">
+                                Хочу также, но дешевле
+                            </button>
+                        </div>
                     </div>
-                    <div class="section-contacts__items__item">
-                        <iframe
+                </div>
+                <div class="item">
+                    <div class="section-reviews__items">
+                        <div class="section-reviews__items__pic">
+                            <img src="img/kitchen-1.jpg" alt="pic">
+                        </div>
+                        <div class="section-reviews__items__text">
+                            <div class="name">tuiro</div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, corporis
+                                libero
+                                iure
+                                accusantium a quis. Autem placeat facilis maiores accusamus voluptatem excepturi id
+                                eaque!
+                                Veniam dolorem minus illo dignissimos culpa?
+                            </div>
+                            <button class="btn js-open-modal" data-modal="modal-callback">
+                                Хочу также, но дешевле
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="section-reviews__items">
+                        <div class="section-reviews__items__pic">
+                            <img src="img/kitchen-1.jpg" alt="pic">
+                        </div>
+                        <div class="section-reviews__items__text">
+                            <div class="name">tuiro</div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, corporis
+                                libero
+                                iure
+                                accusantium a quis. Autem placeat facilis maiores accusamus voluptatem excepturi id
+                                eaque!
+                                Veniam dolorem minus illo dignissimos culpa?
+                            </div>
+                            <button class="btn js-open-modal" data-modal="modal-callback">
+                                Хочу также, но дешевле
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-contacts">
+        <div class="wrapper">
+            <h2 class="h2">
+                <span>Ваш магазин на Центральном Рынке Симферополя</span>
+            </h2>
+            <p>поэтому к нему легко и удобно добраться с любой точки города (есть парковка для автомобилей)</p>
+            <div class="section-contacts__items">
+                <div class="section-contacts__items__item">
+                    <img src="img/map.gif" alt="gif">
+                </div>
+                <div class="section-contacts__items__item">
+                    <iframe
                             src="https://yandex.ru/map-widget/v1/?um=constructor%3A65be2790362a65136aacea42ad24a911a2deb5f9f28970c34503b3ea0eda8ec8&amp;source=constructor"
                             width="100%" frameborder="0"></iframe>
-                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+</main>
 
-        <form
-            action="https://vipstyling.ru/tonirovanie-i-zashchita-avtostekol/tonirovanie-avtostekol-standartnaya-tonirovka"
-            class="quiz" method="post">
+<div class="call-back-widget">
+    <div class="messangers-list-container">
+        <ul class="messangers-list">
+            <li>
+                <a href="tel:+7 978 824 31 65 " class="messanger">
+                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                    <span>Позвонить</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="messanger js-open-modal" data-modal="modal-callback">
+                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                    <span>Обратный звонок</span>
+                </a>
+            </li>
+            <li>
+                <a class="messanger" rel="nofollow noopener" href="https://wa.me/79788243165 " title="Whatsapp"
+                   target="_blank">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <span>Whatsapp</span>
+                </a>
+            </li>
+            <li>
+                <a class="messanger" rel="nofollow noopener" href="viber://chat?number=%2B79788243165 "
+                   title="Viber" target="_blank">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <span>Viber</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="call-back__button">
+        <div class="hidden">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <div class="close">
+            <svg x="0px" y="0px" width="24" height="24" viewBox="0 0 122.878 122.88"
+                 enable-background="new 0 0 122.878 122.88" xml:space="preserve">
+                    <g>
+                        <path fill="#5c1e05"
+                              d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z">
+                        </path>
+                    </g>
+                </svg>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="modal-callback">
+    <div class="modal-bg"></div>
+    <div class="modal-box">
+        <div class="modal-header">
+            <div class="js-close-modal">&#215;</div>
+        </div>
+        <div class="modal-body">
+            <h3>Заказать обратный звонок</h3>
+            <div class="block-input">
+                <input type="text" name="name" placeholder="Ваше имя" class="name">
+            </div>
+            <div class="block-input">
+                <input type="text" name="phone" placeholder="" class="phone">
+            </div>
+            <button class="btn">Заказать</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-quiz" id="modal-quiz">
+    <div class="modal-bg"></div>
+    <div class="modal-box">
+        <div class="modal-header">
+            <div class="js-close-modal">&#215;</div>
+        </div>
+        <form action="" class="quiz" method="post">
 
             <!-- Quiz head -->
             <div class="quiz__header">
                 <figure class="quiz__logo">
-                    <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//logo.png" alt="Vip Styling">
+                    <img src="img/sv-logo.png" alt="logo">
                 </figure>
                 <h3 class="quiz__title">
-                    Пройдите краткий опрос <span>за 15 секунд</span> и получите<br><span>гарантированную
-                        скидку</span>
-                    на наши работы <span>– 5%</span>
+                    Пройди опросник <span>за 30 секунд,</span> и получите<br><span>гарантированную
+                        скидку</span> от Фабрики СВ в Крыму <span>5 тыс. рублей</span>
                 </h3>
             </div>
             <!-- end Quiz head -->
@@ -266,25 +346,22 @@
             <!-- Quiz body -->
             <div class="quiz__main">
 
-                <div class="quiz__steps-line" data-total-steps="6">
+                <div class="quiz__steps-line" data-total-steps="5">
                     <div class="quiz-step-indicator quiz-step-indicator--passed quiz-step-indicator--current"
-                        data-step-number="1">
-                        <div class="quiz-step-indicator__title">1. Авто</div>
+                         data-step-number="1">
+                        <div class="quiz-step-indicator__title">1. Модель кухни</div>
                     </div>
                     <div class="quiz-step-indicator" data-step-number="2">
-                        <div class="quiz-step-indicator__title">2. Тонировка</div>
+                        <div class="quiz-step-indicator__title">2. Размеры кухни</div>
                     </div>
                     <div class="quiz-step-indicator" data-step-number="3">
-                        <div class="quiz-step-indicator__title">3. Пленка</div>
+                        <div class="quiz-step-indicator__title">3. Монтаж</div>
                     </div>
                     <div class="quiz-step-indicator" data-step-number="4">
-                        <div class="quiz-step-indicator__title">4. Качество</div>
+                        <div class="quiz-step-indicator__title">4. Стоимость</div>
                     </div>
                     <div class="quiz-step-indicator" data-step-number="5">
-                        <div class="quiz-step-indicator__title">5. Контакты</div>
-                    </div>
-                    <div class="quiz-step-indicator" data-step-number="6">
-                        <div class="quiz-step-indicator__title">6. Результат</div>
+                        <div class="quiz-step-indicator__title">5. Результат</div>
                     </div>
                 </div>
 
@@ -293,81 +370,71 @@
                     <!-- Step #1 -->
                     <div class="quiz-step quiz-step--current" data-step-number="1" data-step-hidden="false">
 
-                        <h4 class="quiz-step__title">1. Укажите размер вашего автомобиля</h4>
+                        <h4 class="quiz-step__title">1. Выберите модель кухни</h4>
 
-                        <div class="quiz-step__fields quiz-step__fields--figure">
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-car-type-mini" type="radio" name="quiz-input-car-type"
-                                    class="quiz-field-item__input" value="1. Укажите размер вашего автомобиля: Мини"
-                                    data-car-type="mini" checked="">
-                                <label for="quiz-input-car-type-mini" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-mini.png"
-                                            alt="Мини">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Мини</div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-car-type-sedan" type="radio" name="quiz-input-car-type"
-                                    class="quiz-field-item__input" value="1. Укажите размер вашего автомобиля: Седан"
-                                    data-car-type="sedan">
-                                <label for="quiz-input-car-type-sedan" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-sedan.png"
-                                            alt="седан">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Седан</div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-car-type-business-class" type="radio" name="quiz-input-car-type"
-                                    class="quiz-field-item__input"
-                                    value="1. Укажите размер вашего автомобиля: бизнес-класс"
-                                    data-car-type="business_class">
-                                <label for="quiz-input-car-type-business-class" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-business-class.png"
-                                            alt="бизнес-класс">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">бизнес-класс</div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-car-type-crossover" type="radio" name="quiz-input-car-type"
-                                    class="quiz-field-item__input"
-                                    value="1. Укажите размер вашего автомобиля: кроссовер" data-car-type="crossover">
-                                <label for="quiz-input-car-type-crossover" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-crossover.png"
-                                            alt="кроссовер">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">кроссовер</div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-car-type-jeep" type="radio" name="quiz-input-car-type"
-                                    class="quiz-field-item__input" value="1. Укажите размер вашего автомобиля: джип"
-                                    data-car-type="jeep">
-                                <label for="quiz-input-car-type-jeep" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-jeep.png"
-                                            alt="джип">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">джип</div>
-                                </label>
-                            </div>
-
-                            <!-- <div class="quiz-field-item">
-                                <input id="quiz-input-car-type-bus" type="radio" name="quiz-input-car-type" class="quiz-field-item__input"
-                                    value="1. Укажите размер вашего автомобиля: микроавтобус">
-                                <label for="quiz-input-car-type-bus" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="/" alt="микроавтобус">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">микроавтобус</div>
-                                </label>
-                            </div> -->
+                        <div class="quiz-step__fields quiz-step__fields--figure quiz-step__fields--figure--slider"
+                             id="products">
+                            <!--                            <div class="quiz-field-item">-->
+                            <!--                                <input id="quiz-input-car-type-mini" type="radio" name="quiz-input-car-type"-->
+                            <!--                                    class="quiz-field-item__input" value="1. Укажите размер вашего автомобиля: Мини"-->
+                            <!--                                    data-car-type="mini" checked="">-->
+                            <!--                                <label for="quiz-input-car-type-mini" class="quiz-field-item__label">-->
+                            <!--                                    <figure class="quiz-field-item__label__image">-->
+                            <!--                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-mini.png"-->
+                            <!--                                            alt="Мини">-->
+                            <!--                                    </figure>-->
+                            <!--                                    <div class="quiz-field-item__label__title">Мини</div>-->
+                            <!--                                </label>-->
+                            <!--                            </div>-->
+                            <!--                            <div class="quiz-field-item">-->
+                            <!--                                <input id="quiz-input-car-type-sedan" type="radio" name="quiz-input-car-type"-->
+                            <!--                                    class="quiz-field-item__input" value="1. Укажите размер вашего автомобиля: Седан"-->
+                            <!--                                    data-car-type="sedan">-->
+                            <!--                                <label for="quiz-input-car-type-sedan" class="quiz-field-item__label">-->
+                            <!--                                    <figure class="quiz-field-item__label__image">-->
+                            <!--                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-sedan.png"-->
+                            <!--                                            alt="седан">-->
+                            <!--                                    </figure>-->
+                            <!--                                    <div class="quiz-field-item__label__title">Седан</div>-->
+                            <!--                                </label>-->
+                            <!--                            </div>-->
+                            <!--                            <div class="quiz-field-item">-->
+                            <!--                                <input id="quiz-input-car-type-business-class" type="radio" name="quiz-input-car-type"-->
+                            <!--                                    class="quiz-field-item__input"-->
+                            <!--                                    value="1. Укажите размер вашего автомобиля: бизнес-класс"-->
+                            <!--                                    data-car-type="business_class">-->
+                            <!--                                <label for="quiz-input-car-type-business-class" class="quiz-field-item__label">-->
+                            <!--                                    <figure class="quiz-field-item__label__image">-->
+                            <!--                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-business-class.png"-->
+                            <!--                                            alt="бизнес-класс">-->
+                            <!--                                    </figure>-->
+                            <!--                                    <div class="quiz-field-item__label__title">бизнес-класс</div>-->
+                            <!--                                </label>-->
+                            <!--                            </div>-->
+                            <!--                            <div class="quiz-field-item">-->
+                            <!--                                <input id="quiz-input-car-type-crossover" type="radio" name="quiz-input-car-type"-->
+                            <!--                                    class="quiz-field-item__input"-->
+                            <!--                                    value="1. Укажите размер вашего автомобиля: кроссовер" data-car-type="crossover">-->
+                            <!--                                <label for="quiz-input-car-type-crossover" class="quiz-field-item__label">-->
+                            <!--                                    <figure class="quiz-field-item__label__image">-->
+                            <!--                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-crossover.png"-->
+                            <!--                                            alt="кроссовер">-->
+                            <!--                                    </figure>-->
+                            <!--                                    <div class="quiz-field-item__label__title">кроссовер</div>-->
+                            <!--                                </label>-->
+                            <!--                            </div>-->
+                            <!--                            <div class="quiz-field-item">-->
+                            <!--                                <input id="quiz-input-car-type-jeep" type="radio" name="quiz-input-car-type"-->
+                            <!--                                    class="quiz-field-item__input" value="1. Укажите размер вашего автомобиля: джип"-->
+                            <!--                                    data-car-type="jeep">-->
+                            <!--                                <label for="quiz-input-car-type-jeep" class="quiz-field-item__label">-->
+                            <!--                                    <figure class="quiz-field-item__label__image">-->
+                            <!--                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//car-types/car-jeep.png"-->
+                            <!--                                            alt="джип">-->
+                            <!--                                    </figure>-->
+                            <!--                                    <div class="quiz-field-item__label__title">джип</div>-->
+                            <!--                                </label>-->
+                            <!--                            </div>-->
 
                         </div>
                     </div>
@@ -376,69 +443,62 @@
                     <!-- Step #2 -->
                     <div class="quiz-step" data-step-number="2" data-step-hidden="true">
 
-                        <h4 class="quiz-step__title">2. Выберите вид тонировки</h4>
+                        <h4 class="quiz-step__title">2. Укажите размеры кухни</h4>
 
-                        <div class="quiz-step__fields quiz-step__fields--figure">
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-toning-type-back" type="radio" name="quiz-input-toning-type"
-                                    class="quiz-field-item__input" value="2. Выберите вид тонировки: Задняя полусфера"
-                                    data-toning-type="back" checked="">
-                                <label for="quiz-input-toning-type-back" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//toning-types/toning-back-semisphere.png"
-                                            alt="задняя полусфера">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">задняя<br>полусфера</div>
-                                </label>
-                            </div>
+                        <div class="quiz-step__fields quiz-step__fields--figure quiz-step-2__fields--figure">
                             <div class="quiz-field-item">
                                 <input id="quiz-input-toning-type-front" type="radio" name="quiz-input-toning-type"
-                                    class="quiz-field-item__input" value="2. Выберите вид тонировки: Передняя полусфера"
-                                    data-toning-type="front">
-                                <label for="quiz-input-toning-type-front" class="quiz-field-item__label">
+                                       class="quiz-field-item__input" value="2. Выберите вид тонировки: Передняя полусфера"
+                                       data-toning-type="front">
+                                <label for="quiz-input-toning-type-front" class="quiz-field-item__label label__step-2">
                                     <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//toning-types/toning-front-semisphere.png"
-                                            alt="передняя полусфера">
+                                        <img src="img/kitchen/kitchen-1.png" alt="pic">
                                     </figure>
-                                    <div class="quiz-field-item__label__title">передняя<br>полусфера</div>
+                                    <div class="quiz-field-item__label__title">Прямая</div>
                                 </label>
+                                <div class="kitchen-length">
+                                    <span>Длина</span>
+                                    <input id="" class="length" name="label__step-2" value="0">
+                                </div>
                             </div>
                             <div class="quiz-field-item">
                                 <input id="quiz-input-toning-type-only-front" type="radio" name="quiz-input-toning-type"
-                                    class="quiz-field-item__input" value="2. Выберите вид тонировки: Только лобовое"
-                                    data-toning-type="only_front">
-                                <label for="quiz-input-toning-type-only-front" class="quiz-field-item__label">
+                                       class="quiz-field-item__input" value="2. Выберите вид тонировки: Только лобовое"
+                                       data-toning-type="only_front">
+                                <label for="quiz-input-toning-type-only-front" class="quiz-field-item__label label__step-2">
                                     <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//toning-types/toning-only-front.png"
-                                            alt="только лобовое">
+                                        <img src="img/kitchen/kitchen-2.png" alt="pic">
                                     </figure>
-                                    <div class="quiz-field-item__label__title">только<br>лобовое</div>
+                                    <div class="quiz-field-item__label__title">Г-образная правый</div>
                                 </label>
+                                <div class="kitchen-length">
+                                    <span>Длина 1-й стены</span>
+                                    <input id="" class="length" name="label__step-2" value="0">
+                                </div>
+                                <div class="kitchen-length">
+                                    <span>Длина 2-й стены</span>
+                                    <input id="" class="length" name="label__step-2" value="0">
+                                </div>
                             </div>
                             <div class="quiz-field-item">
                                 <input id="quiz-input-toning-type-front-side" type="radio" name="quiz-input-toning-type"
-                                    class="quiz-field-item__input"
-                                    value="2. Выберите вид тонировки: Только передние боковые"
-                                    data-toning-type="front_side">
-                                <label for="quiz-input-toning-type-front-side" class="quiz-field-item__label">
+                                       class="quiz-field-item__input"
+                                       value="2. Выберите вид тонировки: Только передние боковые"
+                                       data-toning-type="front_side">
+                                <label for="quiz-input-toning-type-front-side" class="quiz-field-item__label label__step-2">
                                     <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//toning-types/toning-front-side.png"
-                                            alt="только передние боковые">
+                                        <img src="img/kitchen/kitchen-3.png" alt="pic">
                                     </figure>
-                                    <div class="quiz-field-item__label__title">только передние<br>боковые</div>
+                                    <div class="quiz-field-item__label__title">Г-образный левый</div>
                                 </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-toning-type-all" type="radio" name="quiz-input-toning-type"
-                                    class="quiz-field-item__input" value="2. Выберите вид тонировки: Все стекла"
-                                    data-toning-type="all">
-                                <label for="quiz-input-toning-type-all" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//toning-types/toning-all.png"
-                                            alt="Все стекла">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Все стекла</div>
-                                </label>
+                                <div class="kitchen-length">
+                                    <span>Длина 1-й стены</span>
+                                    <input id="" class="length" name="label__step-2" value="0">
+                                </div>
+                                <div class="kitchen-length">
+                                    <span>Длина 2-й стены</span>
+                                    <input id="" class="length" name="label__step-2" value="0">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -447,97 +507,29 @@
                     <!-- Step #3 -->
                     <div class="quiz-step" data-step-number="3" data-step-hidden="true">
 
-                        <h4 class="quiz-step__title">3. Выберите тип пленки и светопропускаемость</h4>
-
-                        <div class="quiz-step__fields quiz-step__fields--figure">
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-film-type-standart-black" type="radio" name="quiz-input-film-type"
-                                    class="quiz-field-item__input"
-                                    value="3. Выберите тип пленки и светопропускаемость: Стандартная черная" checked=""
-                                    data-film-type="standart_black">
-                                <label for="quiz-input-film-type-standart-black" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//film-types/film-default-black.jpg"
-                                            alt="Стандартная черная">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Стандартная<br>черная</div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-film-type-atermal" type="radio" name="quiz-input-film-type"
-                                    class="quiz-field-item__input"
-                                    value="3. Выберите тип пленки и светопропускаемость: Атермальная"
-                                    data-film-type="atermal">
-                                <label for="quiz-input-film-type-atermal" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//film-types/film-atermal.jpg"
-                                            alt="Атермальная">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Атермальная</div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-film-type-chameleon" type="radio" name="quiz-input-film-type"
-                                    class="quiz-field-item__input"
-                                    value="3. Выберите тип пленки и светопропускаемость: Хамелеон"
-                                    data-film-type="chameleon">
-                                <label for="quiz-input-film-type-chameleon" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//film-types/film-only-front.jpg"
-                                            alt="Хамелеон">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Хамелеон</div>
-                                </label>
+                        <h4 class="quiz-step__title">3. Вам нужен монтаж кухни?</h4>
+                        <div class="quiz-step__fields quiz-step__fields--default">
+                            <div class="quiz-field-items-group">
+                                <div class="quiz-field-item">
+                                    <input id="mounting-yes" type="radio" name="mounting"
+                                           class="quiz-field-item__input" checked="checked">
+                                    <label for="mounting-yes" class="quiz-field-item__label label__step-3">Да</label>
+                                </div>
+                                <div class="quiz-field-item">
+                                    <input id="mounting-no" type="radio" name="mounting"
+                                           class="quiz-field-item__input">
+                                    <label for="mounting-no" class="quiz-field-item__label label__step-3">Нет</label>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- end Step #3 -->
-
-                    <!-- Step #4 -->
                     <div class="quiz-step" data-step-number="4" data-step-hidden="true">
 
-                        <h4 class="quiz-step__title">4. Выберите качество используемого материала</h4>
-
-                        <div class="quiz-step__fields quiz-step__fields--figure">
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-film-type-material-standart" type="radio"
-                                    name="quiz-input-material-type" class="quiz-field-item__input"
-                                    value="4. Выберите качество используемого материала: Стандарт" checked=""
-                                    data-material-type="standart">
-                                <label for="quiz-input-film-type-material-standart" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//material-types/material-standart.jpg"
-                                            alt="Стандарт США">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Стандарт<br><span>США</span></div>
-                                </label>
-                            </div>
-                            <div class="quiz-field-item">
-                                <input id="quiz-input-film-type-material-premium" type="radio"
-                                    name="quiz-input-material-type" class="quiz-field-item__input"
-                                    value="4. Выберите качество используемого материала: Премиум"
-                                    data-material-type="premium">
-                                <label for="quiz-input-film-type-material-premium" class="quiz-field-item__label">
-                                    <figure class="quiz-field-item__label__image">
-                                        <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//material-types/material-premium.jpg"
-                                            alt="премиум">
-                                    </figure>
-                                    <div class="quiz-field-item__label__title">Премиум<br><span>США</span></div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end Step #4 -->
-
-                    <!-- Step #5 -->
-                    <div class="quiz-step" data-step-number="5" data-step-hidden="true">
-
-                        <h4 class="quiz-step__title">5. Если желаете - оставьте свой номер и наш менеджер созвонится
-                            с
-                            Вами</h4>
+                        <h4 class="quiz-step__title">5. Стоимость</h4>
 
                         <p class="quiz-send-notification quiz-send-notification-price">
-                            Стоимость услуги для Вас:<br>
+                            Предварительный расчет стоимости вашей кухни составляет:<br>
                             <span class="quiz-total-price-text"></span>
                         </p>
 
@@ -545,50 +537,45 @@
                             <div class="quiz-field-items-group">
                                 <div class="quiz-field-item">
                                     <input id="quiz-input-leave-number" type="checkbox" name="quiz-input-leave-number"
-                                        class="quiz-field-item__input" value="Номер телефона: " checked="">
+                                           class="quiz-field-item__input" value="Номер телефона: " checked="">
                                     <label for="quiz-input-leave-number" class="quiz-field-item__label">Оставьте
                                         номер и
-                                        получите скидку 5% (до 1000 руб.)</label>
+                                        получите скидку до 1000 руб.</label>
                                 </div>
                                 <div class="quiz-field-item">
                                     <input type="tel" class="quiz-field-item__input quiz-field-item__input--phone"
-                                        name="user-phone" required="" placeholder="Ваш номер" maxlength="18">
+                                           name="user-phone" required="" placeholder="Ваш номер" maxlength="18">
                                 </div>
                             </div>
                             <div class="quiz-field-item hidden">
                                 <input id="quiz-input-self-callback" type="checkbox" name="quiz-input-leave-number"
-                                    class="quiz-field-item__input"
-                                    value="Я сам наберу, когда буду готов получить услугу и скидку">
+                                       class="quiz-field-item__input"
+                                       value="Я сам наберу, когда буду готов получить услугу и скидку">
                                 <label for="quiz-input-self-callback" class="quiz-field-item__label">Я сам наберу,
                                     когда
                                     буду готов получить услугу и скидку</label>
                             </div>
                         </div>
                     </div>
-                    <!-- end Step #5 -->
-
-                    <!-- Step #6 -->
-                    <div class="quiz-step" data-step-number="6" data-step-hidden="true">
-                        <h4 class="quiz-step__title">6. Спасибо за ответы! Получите результат расчета и
-                            гарантированную
-                            скидку</h4>
+                    <!-- Step #4 -->
+                    <div class="quiz-step" data-step-number="5" data-step-hidden="true">
+                        <h4 class="quiz-step__title">6. Спасибо за ответы!</h4>
                     </div>
-                    <!-- end Step #6 -->
+                    <!-- end Step #4 -->
 
                 </div>
 
                 <!-- Quiz actions -->
                 <div class="quiz__actions">
                     <button class="quiz-step-switcher" data-car-type="mini" data-toning-type="back"
-                        data-film-type="standart_black" data-material-type="standart" data-quiz-step="">
+                            data-film-type="standart_black" data-material-type="standart" data-quiz-step="">
                         <span class="quiz-step-switcher__title">Следующий шаг</span>
                         <span class="quiz-step-switcher__icon">
-                            <img src="https://vipstyling.ru/templates/vt_carrepair/images/quiz//arrow-right.png" alt="">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </span>
                     </button>
                     <div class="quiz-step-description">
-                        <p>Стоимость тонировки рассчитана без демонтажа старой пленки.</p>
-                        <p>Доплата за универсал <span>+15%</span> к стоимости.</p>
+
                     </div>
                 </div>
                 <!-- end Quiz actions -->
@@ -601,143 +588,62 @@
             <input type="hidden" name="quiz-form-total-price" value="" class="quiz-form-total-price">
 
         </form>
-    </main>
-
-    <div class="call-back-widget">
-        <div class="messangers-list-container">
-            <ul class="messangers-list">
-                <li>
-                    <a href="tel:+7 978 824 31 65 " class="messanger">
-                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                        <span>Позвонить</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="messanger js-open-modal" data-modal="modal-callback">
-                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-                        <span>Обратный звонок</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="messanger" rel="nofollow noopener" href="https://wa.me/79788243165 " title="Whatsapp"
-                        target="_blank">
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                        <span>Whatsapp</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="messanger" rel="nofollow noopener" href="viber://chat?number=%2B79788243165 "
-                        title="Viber" target="_blank">
-                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                        <span>Viber</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="messanger" rel="nofollow noopener" href="viber://chat?number=%2B79788243165 "
-                        title="Telegram" target="_blank">
-                        <i class="fa fa-telegram" aria-hidden="true"></i>
-                        <span>Телеграм</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:drozdovat63@mail.ru" class="fa-block">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <span>drozdovat63@mail.ru</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="call-back__button">
-            <div class="hidden">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-            </div>
-            <div class="close">
-                <svg x="0px" y="0px" width="24" height="24" viewBox="0 0 122.878 122.88"
-                    enable-background="new 0 0 122.878 122.88" xml:space="preserve">
-                    <g>
-                        <path fill="#d40100"
-                            d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z">
-                        </path>
-                    </g>
-                </svg>
-            </div>
-        </div>
     </div>
+</div>
 
-
-
-    <div class="modal" id="modal-callback">
-        <div class="modal-bg"></div>
-        <div class="modal-box">
-            <div class="modal-header">
-                <div class="js-close-modal">&#215;</div>
+<footer class="footer section">
+    <div class="wrapper">
+        <div class="footer__items">
+            <div class="footer__items__item">
+                <a href="#" class="header__logo">
+                    <img src="img/sv-logo.png" alt="logo">
+                </a>
+                <div class="desc">
+                    <p>Описание компании Описание компании Описание компании Описание компании Описание компании
+                    </p>
+                </div>
+                <a href="https://priliv.pro" class="priliv-link" rel="nofollow">
+                    <img src="img/priliv-logo.png" alt="">
+                    <span>Заказать сайт в Ялте</span>
+                </a>
             </div>
-            <div class="modal-body">
-                <h3>Заказать обратный звонок</h3>
-                <div class="block-input">
-                    <input type="text" name="name" placeholder="Ваше имя" class="name">
-                </div>
-                <div class="block-input">
-                    <input type="text" name="phone" placeholder="" class="phone">
-                </div>
-                <button class="btn">Заказать</button>
+            <div class="footer__items__item">
+                <ul class="footer-menu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contacts</a></li>
+                    <li><a href="#">123</a></li>
+                </ul>
             </div>
-        </div>
-    </div>
-
-    <footer class="footer section">
-        <div class="wrapper">
-            <div class="footer__items">
-                <div class="footer__items__item">
-                    <a href="#" class="header__logo">
-                        <img src="img/sv-logo.png" alt="logo">
-                    </a>
-                    <div class="desc">
-                        <p>Описание компании Описание компании Описание компании Описание компании Описание компании
-                        </p>
-                    </div>
-                    <a href="https://priliv.pro" class="priliv-link" rel="nofollow">
-                        <img src="img/priliv-logo.png" alt="">
-                        <span>Заказать сайт в Ялте</span>
-                    </a>
+            <div class="footer__items__item footer__items__item--contacts">
+                <h3>Ваш личный менеджер</h3>
+                <div class="manager">
+                    <img src="img/manager.jpg" alt="pic">
+                    <p>Менеджер</p>
                 </div>
-                <div class="footer__items__item">
-                    <ul class="footer-menu">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">contacts</a></li>
-                        <li><a href="#">123</a></li>
-                    </ul>
-                </div>
-                <div class="footer__items__item footer__items__item--contacts">
-                    <h3>Ваш личный менеджер</h3>
-                    <div class="manager">
-                        <img src="img/manager.jpg" alt="pic">
-                        <p>Менеджер</p>
-                    </div>
-                    <div class="footer__contacts">
-                        <a href="tel:+79281023522" class="fa-block">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span>+7 928 102 35 22</span>
-                        </a>
-                        <div class="fa-block">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <span>г. Симферополь,
+                <div class="footer__contacts">
+                    <a href="tel:+79281023522" class="fa-block">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>+7 928 102 35 22</span>
+                    </a>
+                    <div class="fa-block">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span>г. Симферополь,
                                 ул. Козлова, 11\1<br>(территория Центрального Рынка)</span>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://kit.fontawesome.com/e0fc32bd82.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js">
-    </script>
-    <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/e0fc32bd82.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js">
+</script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
